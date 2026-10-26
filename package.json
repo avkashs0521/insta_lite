@@ -1,0 +1,32 @@
+{
+  "name": "insta_lite",
+  "version": "1.0.0",
+  "description": "InstaLite - Instagram-like API built with Express and Prisma",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "seed": "npx prisma db seed",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avkashs0521/insta_lite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/avkashs0521/insta_lite/issues"
+  },
+  "homepage": "https://github.com/avkashs0521/insta_lite#readme",
+  "dependencies": {
+    "@prisma/adapter-better-sqlite3": "^7.10.1",
+    "@prisma/client": "^7.10.1",
+    "better-sqlite3": "^13.0.3",
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "prisma": "^7.10.1"
+  }
+}
